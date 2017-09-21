@@ -1,11 +1,15 @@
 import _ from 'lodash'
+import j from 'jquery'
+import foo from './foo'
 
 function component() {
-    var element=document.createElement('div')
-    element.innerHTML=_.join(['Hello',' Webpack'],'')
+    var element=j('<div></div>')
+    element.html(_.join(['Hello',' Webpack'],''))
 
-    return element
+    return element.get(0)
     
 }
 
 document.body.appendChild(component())
+console.log(foo)
+console.log(foo())
