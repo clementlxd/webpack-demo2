@@ -1,3 +1,5 @@
+预览地址 https://clementlxd.github.io/webpack-demo2/build/index.html
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
